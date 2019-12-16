@@ -16,6 +16,7 @@ import springfox.documentation.swagger.web.SwaggerResource;
 import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 
 @Configuration
+//@EnableWebMvc
 public class SwaggerUIConfiguration {
 	@Autowired
 	private ServiceDefinitionContext definitionContext;
